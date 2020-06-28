@@ -1,0 +1,68 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.imagenFondo{
+    background-image: url('/./storage/images/imgfondo/esferas01.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hg-10-container{
+    min-height: 100vh;
+}
+
+.hg-8-container{
+    min-height: 80vh;
+}
+
+.hg-5-container{
+    min-height: 50vh;
+}
+
+.bg-gradient{
+    color: cornsilk;
+    background: linear-gradient(52deg, #000000db, #00000085);
+}
+
+.bg-gradient-auth{    
+    background: linear-gradient(52deg, #000000db, #00000065);
+}
+
+.bg-light-blue{
+    background-color: #eaf1f9;
+}
+
+.btn-gradient{
+    background: linear-gradient(52deg, #00000094, #00000038);
+}
+
+.btn-gradient:hover{
+    background:none;
+}
+
+.bg-blue{
+    background-color: $blue;
+}
+
+.bg-indigo{
+    background-color: $indigo;
+}
+
+.bg-purple{
+    background-color: $purple;
+}
+
+.bg-pink{
+    background-color: $pink;
+}
+
+.content-center{
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
