@@ -2208,6 +2208,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['titulo', 'seemenu'],
   data: function data() {
@@ -2808,6 +2814,9 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
 //
 //
 //
@@ -7412,7 +7421,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.fade-enter-active[data-v-98f701fa], .fade-leave-active[data-v-98f701fa] {\ntransition: opacity .6s\n}\n.fade-enter[data-v-98f701fa], .fade-leave-to[data-v-98f701fa] /* .fade-leave-active below version 2.1.8 */ {\nopacity: 0\n}\n\n/* Las animaciones de entrada y salida pueden usar */\n/* funciones de espera y duración diferentes.      */\n.slide-fade-enter-active[data-v-98f701fa] {\n    transition: all 0.3s ease;\n}\n.slide-fade-leave-active[data-v-98f701fa] {\n    transition: all .5s cubic-bezier(1.0, 0.5, 0.8, 1.0);\n}\n.slide-fade-enter[data-v-98f701fa], .slide-fade-leave-to[data-v-98f701fa]\n    /* .slide-fade-leave-active below version 2.1.8 */ {\n    transform: translateX(10px);\n    opacity: 0;\n}\n.hg-fixed[data-v-98f701fa]{\n    height: 100vh;\n    overflow:auto;\n}\n.fondo-fixed[data-v-98f701fa]{\n    position: fixed;\n    left: 0;\n    top: 0;\n    z-index: 100;\n}\n.bg-menu[data-v-98f701fa]{ background: linear-gradient(52deg, #0b012af6, #0853cc);}\n.w-20-menu[data-v-98f701fa]{width: 25px; text-align: right; padding: 0;}\n.foto-mini[data-v-98f701fa]{\n    width: 25px;\n    height:25px;                                   \n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: cover;\n}\n.foto-perfil[data-v-98f701fa]{\n    max-width: 100px;\n    max-height: 100px;\n    overflow: hidden;\n    margin: 3px auto;\n}\n.foto-perfil img[data-v-98f701fa]{\n    max-width: 500px;\n    width: 150px;\n    transform: translateX(-14%) translateY(-4%);\n    cursor:pointer;\n}\n.imagen[data-v-98f701fa]{\n    position: fixed;\n    left: 50%;\n    top: 50%;\n    z-index: 4001;\n    transform: translateX(-50%) translateY(-50%);\n}\n.foto-guardar[data-v-98f701fa]{background-image:url('/./storage/images/guardar2.ico');}\n.foto-contact[data-v-98f701fa]{background-image:url('/./storage/images/contacto1.ico');}\n.foto-home[data-v-98f701fa]{background-image:url('/./storage/images/home1.png');}\n.foto-plus[data-v-98f701fa]{background-image:url('/./storage/images/plus.png');}\n.btn-menu[data-v-98f701fa]{\n    position: fixed;\n    left: 0;\n    right: 0;\n    width: 50px;\n    height: 30px;\n    z-index: 2000;\n}\n.border-lightgray[data-v-98f701fa]{\n    border-color: lightgray;\n}\n.links[data-v-98f701fa]{\n    font-family: sans-serif;\n    color: #0277d0;\n    -webkit-text-decoration-line: none;\n            text-decoration-line: none;\n\n    transition: color 0.5s ease-in-out, \n        background-color 0.5s ease-in-out, \n        border-color 0.15s ease-in-out, \n        box-shadow 0.15s ease-in-out;\n}\n.links.active[data-v-98f701fa]{\n    background:#c3dfefad;\n}\n.links[data-v-98f701fa]:hover{\n    cursor: pointer;\n    font-weight: bold;\n    background: #539ee4;\n    color:white;\n}\n.links[data-v-98f701fa]:active{\n    cursor: pointer;\n    font-weight: bold;\n    background: #32015f;\n    color:white;\n}\n.btn-menu[data-v-98f701fa]:hover{background: radial-gradient(#97e5f796, #14d3ffbd);}\n.foto-mini[data-v-98f701fa]:hover{                \n    width: 20px;\n    height:20px; \n    cursor: pointer;\n}\n\n", ""]);
+exports.push([module.i, "\n.fade-enter-active[data-v-98f701fa], .fade-leave-active[data-v-98f701fa] {\ntransition: opacity .6s\n}\n.fade-enter[data-v-98f701fa], .fade-leave-to[data-v-98f701fa] /* .fade-leave-active below version 2.1.8 */ {\nopacity: 0\n}\n\n/* Las animaciones de entrada y salida pueden usar */\n/* funciones de espera y duración diferentes.      */\n.slide-fade-enter-active[data-v-98f701fa] {\n    transition: all 0.3s ease;\n}\n.slide-fade-leave-active[data-v-98f701fa] {\n    transition: all .5s cubic-bezier(1.0, 0.5, 0.8, 1.0);\n}\n.slide-fade-enter[data-v-98f701fa], .slide-fade-leave-to[data-v-98f701fa]\n    /* .slide-fade-leave-active below version 2.1.8 */ {\n    transform: translateX(10px);\n    opacity: 0;\n}\n.hg-fixed[data-v-98f701fa]{\n    height: 100vh;\n    overflow:auto;\n}\n.fondo-fixed[data-v-98f701fa]{\n    position: fixed;\n    left: 0;\n    top: 0;\n    z-index: 100;\n}\n.bg-menu[data-v-98f701fa]{ background: linear-gradient(52deg, #0b012af6, #0853cc);}\n.w-20-menu[data-v-98f701fa]{width: 25px; text-align: right; padding: 0;}\n.foto-mini[data-v-98f701fa]{\n    width: 25px;\n    height:25px;                                   \n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: cover;\n}\n.foto-perfil[data-v-98f701fa]{\n    max-width: 100px;\n    max-height: 100px;\n    overflow: hidden;\n    margin: 3px auto;\n}\n.foto-perfil img[data-v-98f701fa]{\n    max-width: 500px;\n    width: 150px;\n    transform: translateX(-14%) translateY(-4%);\n    cursor:pointer;\n}\n.imagen[data-v-98f701fa]{\n    position: fixed;\n    left: 50%;\n    top: 50%;\n    z-index: 4001;\n    transform: translateX(-50%) translateY(-50%);\n}\n.foto-guardar[data-v-98f701fa]{background-image:url('/./storage/images/guardar2.ico');}\n.foto-contact[data-v-98f701fa]{background-image:url('/./storage/images/contacto1.ico');}\n.foto-home[data-v-98f701fa]{background-image:url('/./storage/images/home1.png');}\n.foto-plus[data-v-98f701fa]{background-image:url('/./storage/images/plus.png');}\n.foto-github[data-v-98f701fa]{background-image:url('/./storage/images/Github-icon.png');}\n.btn-menu[data-v-98f701fa]{\n    position: fixed;\n    left: 0;\n    right: 0;\n    width: 50px;\n    height: 30px;\n    z-index: 2000;\n}\n.border-lightgray[data-v-98f701fa]{\n    border-color: lightgray;\n}\n.links[data-v-98f701fa]{\n    font-family: sans-serif;\n    color: #0277d0;\n    -webkit-text-decoration-line: none;\n            text-decoration-line: none;\n\n    transition: color 0.5s ease-in-out, \n        background-color 0.5s ease-in-out, \n        border-color 0.15s ease-in-out, \n        box-shadow 0.15s ease-in-out;\n}\n.links.active[data-v-98f701fa]{\n    background:#c3dfefad;\n}\n.links[data-v-98f701fa]:hover{\n    cursor: pointer;\n    font-weight: bold;\n    background: #539ee4;\n    color:white;\n}\n.links[data-v-98f701fa]:active{\n    cursor: pointer;\n    font-weight: bold;\n    background: #32015f;\n    color:white;\n}\n.btn-menu[data-v-98f701fa]:hover{background: radial-gradient(#97e5f796, #14d3ffbd);}\n.foto-mini[data-v-98f701fa]:hover{                \n    width: 20px;\n    height:20px; \n    cursor: pointer;\n}\n\n", ""]);
 
 // exports
 
@@ -39897,6 +39906,27 @@ var render = function() {
                         1
                       ),
                       _vm._v(" "),
+                      _c("div", [
+                        _c(
+                          "a",
+                          {
+                            staticClass:
+                              "links d-flex justify-content-between align-items-center px-2 py-1 my-3 badge-pill",
+                            attrs: {
+                              href:
+                                "https://github.com/alexPabon/Vue.js---Laravel-7",
+                              target: "_blank"
+                            }
+                          },
+                          [
+                            _vm._v(
+                              "\n                \t\tGITHUB\n                \t\t"
+                            ),
+                            _c("span", { staticClass: "foto-mini foto-github" })
+                          ]
+                        )
+                      ]),
+                      _vm._v(" "),
                       _c("hr")
                     ])
                   : _vm._e(),
@@ -41139,10 +41169,18 @@ var render = function() {
             ),
             _vm._v(" "),
             _c("P", { staticClass: "py-2 lead text-justify" }, [
-              _vm._v("Puedes ver mas informacion en el repositrio "),
+              _vm._v(
+                "\n            \tPuedes ver mas informacion en el repositrio \n            \t"
+              ),
               _c(
                 "a",
-                { staticClass: "link font-weight-bold", attrs: { href: "" } },
+                {
+                  staticClass: "link font-weight-bold",
+                  attrs: {
+                    href: "https://github.com/alexPabon/Vue.js---Laravel-7",
+                    target: "_blank"
+                  }
+                },
                 [_vm._v("GITHUB")]
               )
             ])
@@ -56710,15 +56748,14 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*!*****************************************************!*\
   !*** ./resources/js/components/AddOneComponent.vue ***!
   \*****************************************************/
-/*! no static exports found */
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _AddOneComponent_vue_vue_type_template_id_5b095646___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AddOneComponent.vue?vue&type=template&id=5b095646& */ "./resources/js/components/AddOneComponent.vue?vue&type=template&id=5b095646&");
 /* harmony import */ var _AddOneComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AddOneComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/AddOneComponent.vue?vue&type=script&lang=js&");
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _AddOneComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _AddOneComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -56748,7 +56785,7 @@ component.options.__file = "resources/js/components/AddOneComponent.vue"
 /*!******************************************************************************!*\
   !*** ./resources/js/components/AddOneComponent.vue?vue&type=script&lang=js& ***!
   \******************************************************************************/
-/*! no static exports found */
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

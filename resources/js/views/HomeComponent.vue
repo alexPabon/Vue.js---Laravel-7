@@ -60,7 +60,10 @@
                         </li>
                     </ul>
                 </div>
-                <P class="py-2 lead text-justify">Puedes ver mas informacion en el repositrio <a class="link font-weight-bold" href="">GITHUB</a></P>
+                <P class="py-2 lead text-justify">
+                	Puedes ver mas informacion en el repositrio 
+                	<a class="link font-weight-bold" href="https://github.com/alexPabon/Vue.js---Laravel-7" target="_blank">GITHUB</a>
+            	</P>
             </div>
         </div>
     </div>

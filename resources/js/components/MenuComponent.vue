@@ -83,6 +83,12 @@
                             <span class="foto-mini foto-contact"></span>                                                
                         </router-link>
                     </div>
+                    <div>
+                    	<a class="links d-flex justify-content-between align-items-center px-2 py-1 my-3 badge-pill" href="https://github.com/alexPabon/Vue.js---Laravel-7" target="_blank">
+                    		GITHUB
+                    		<span class="foto-mini foto-github"></span>
+                		</a>                    	
+                    </div>
                     <hr>                    
                 </div>               
                 <!-- =============== fin Menu de vistas ============================ -->
@@ -228,7 +234,8 @@
     .foto-guardar{background-image:url('/./storage/images/guardar2.ico');}
     .foto-contact{background-image:url('/./storage/images/contacto1.ico');}
     .foto-home{background-image:url('/./storage/images/home1.png');}
-    .foto-plus{background-image:url('/./storage/images/plus.png');}      
+    .foto-plus{background-image:url('/./storage/images/plus.png');}
+    .foto-github{background-image:url('/./storage/images/Github-icon.png');}       
 
     .btn-menu{
         position: fixed;

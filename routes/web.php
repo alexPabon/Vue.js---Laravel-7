@@ -37,4 +37,24 @@ Route::post('contact','MessageContactController@store')->name('contact.store')->
 
 Route::resource('statuses','StatusesController');
 
+Route::get('/adm', function(){
+    
+    if(Auth::user()->email!='alepabon@gmail.com')
+        abort('403','No tienes permisos para acceder');
+    
+    //Artisan::call('migrate');
+    // Artisan::call('queue:listen');
+    //Artisan::call('queue:restart');
+        
+    // Artisan::call('config:cache');
+    // Artisan::call('config:clear');
+    
+    // Artisan::call('route:cache');
+    // Artisan::call('route:clear');
+    
+    // Artisan::call('optimize');
+    // Artisan::call('optimize:clear');
+    return "Proyecto optimizado";
+})->middleware('auth');
+
 

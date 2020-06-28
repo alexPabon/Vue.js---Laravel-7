@@ -4,13 +4,13 @@ De forma predeterminada, las aplicaciones nuevas de Laravel contienen un compone
 
 ##### Que podemos encontrar en este repositorio
 
-* <a href="" target="_blank">Ir a la pagina de ejemplo</a>
+* <a href="http://comentarios.alexpabon.es/" target="_blank">Ir a la pagina de ejemplo</a>
 
 
-* <a href="" target="_blank">Directorio de Component.Vue</a>
+* <a href="https://github.com/alexPabon/Vue.js---Laravel-7/tree/master/resources/js" target="_blank">Directorio de Component.Vue</a>
 
 
-* <a href="" target="_blank">Directorio Sass</a>
+* <a href="https://github.com/alexPabon/Vue.js---Laravel-7/tree/master/resources/sass" target="_blank">Directorio Sass</a>
 
 
-* <a href="http://apirest.alexpabon.es" target="_blank">Directorio Test PHPUnit</a>
+* <a href="https://github.com/alexPabon/Vue.js---Laravel-7/tree/master/tests/Feature" target="_blank">Directorio Test PHPUnit</a>
