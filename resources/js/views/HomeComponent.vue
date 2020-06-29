@@ -33,7 +33,7 @@
                             <span>Se ha definido las Vue Router</span>
                         </li>
                         <li>
-                            <span>Al tratarse de una aplicacion de muestra, se ha implemetado la base de datos con SQLITE</span>    
+                            <span>La base de datos es con SQLITE, por su facil portabildad</span>    
                         </li>                        
                         <li>
                             <router-link :to="{name:'menu-page1'}">

@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <meta name="description" content="Pagina para publicar anuncios"> 
+        <meta name="description" content="App laravel con Vue.js"> 
         <meta name="keywords" content="web, anuncios, laravel, publicar, Alexander, Pabon, pabon,alexander">
         <meta name="author" content="Alexander Pabon">        	
 

@@ -19,7 +19,7 @@
                         <input type="text" class="form-control" v-model="thought.description">
                         <div class="pt-3 text-danger" v-if="mostrarErrors">                    
                             <small class="p-0 m-0">-{{msn}}</small>                    
-                            <div v-for="value in errores" :key="value">
+                            <div v-for="value in errores">
                                 <small class="p-0 m-0 d-block" v-for="err in value" :key="err">- {{err}} </small>
                             </div>
                         </div>

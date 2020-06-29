@@ -40336,7 +40336,6 @@ var render = function() {
                           _vm._l(_vm.errores, function(value) {
                             return _c(
                               "div",
-                              { key: value },
                               _vm._l(value, function(err) {
                                 return _c(
                                   "small",
@@ -41260,9 +41259,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("li", [
       _c("span", [
-        _vm._v(
-          "Al tratarse de una aplicacion de muestra, se ha implemetado la base de datos con SQLITE"
-        )
+        _vm._v("La base de datos es con SQLITE, por su facil portabildad")
       ])
     ])
   },
